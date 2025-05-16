@@ -1,0 +1,77 @@
+# Fichiers système
+.vs/
+.idea/
+*.user
+*.suo
+*.DS_Store
+*.swp
+
+# Build
+bin/
+obj/
+out/
+
+# Fichiers de log et temporaires
+*.log
+*.tmp
+
+# ASP.NET
+*.db
+*.db-shm
+*.db-wal
+*.pidb
+
+# Visual Studio
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configuration locale
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Coverage & tests
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+nunit-*.xml
+
+# Paket
+.paket/
+paket-files/
+
+# JetBrains Rider
+.idea/
+
+# Fichiers publiés
+wwwroot/dist/
+publish/
+*.publishsettings
+
+# Azure
+*.azurePubxml
+
+# Blazor spécifique
+**/wwwroot/css/bootstrap.min.css.map
+**/wwwroot/js/bootstrap.bundle.min.js.map
+**/wwwroot/_framework/
+
+# Node.js (si Blazor WebAssembly utilise npm ou yarn)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Env
+.env
+.env.*
